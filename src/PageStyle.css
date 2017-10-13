@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Exo 2', sans-serif;
+    margin: 0;
+}
+
+body {
+    background: #eae5e5;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Bree Serif', serif;
+}
+
+h3 {
+    margin-top: 3px;
+    font-family: 'Bree Serif', serif;
+}
+
+h4 {
+    margin: 0;
+}
+
+h5 {
+    font-size: 80px;
+    font-family: 'Bree Serif', serif;
+
+}
+
+h6 {
+    font-size: 45px;
+    font-weight: lighter;
+    font-family: 'Bree Serif', serif;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.content_field {
+    width: 100%;
+    height: 800px;
+    color: #4d4d4d;
+    text-align: center;
+}
+
+.title_container {
+    width: 100%;
+    height: 30%;
+    padding: 50px;
+}
+
+.title {
+    cursor: pointer;
+    text-align: left;
+}
+
+.menu_container {
+    width: 35%;
+    height: 100px;
+    margin-left: 50px;
+    line-height: 150px;
+}
+
+.menu {
+    height: 100%;
+    padding: 30px;
+    color: #8b8b97;
+    cursor: pointer;
+    font-family: 'Bree Serif', serif;
+}
+
+.menu:hover {
+    color: #61d0d4;
+}
+
+.home {
+    color: #61d0d4;
+}
+
+.profile {
+    width: 100%;
+    height: 100%;
+}
+
+.my_img {
+    background: url('image/dahye2.png') no-repeat;
+    background-size: contain;
+    width: 450px;
+    height: 450px;
+    margin-right: 80px;
+}
+
+.content_container {
+    max-width: 25%;
+    height: 100%;
+}
+
+.profile_top {
+    text-align: left;
+    padding-left: 30px;
+}
+
+.btn_container {
+    padding: 33px;
+}
+
+.circle_btn {
+    width: 140px;
+    height: 140px;
+    border-radius: 70px;
+    cursor: pointer;
+    line-height: 140px;
+    color: #fff;
+    font-size: 14px;
+    margin-right: 19px;
+}
+
+
+.cfirst {
+    background: #e83556;
+}
+
+.cfirst:hover {
+    background: #a0243b;
+    transition-duration: 0.5s;
+}
+
+.csecond {
+    background: #61d0d4;
+}
+
+.csecond:hover {
+    background: #3a7f82;
+    transition-duration: 0.5s;
+}
+
+.cthird {
+    background: #d1c926;
+    margin-right: 0;
+}
+
+.cthird:hover {
+    background: #96901b;
+    transition-duration: 0.5s;
+}
+
+
+.introduce {
+    width:90%;
+    margin-left: 30px;
+    text-align: left;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.bottom_bar {
+    background: #e83556;
+    width: 100%;
+    height: 150px;
+    padding: 35px;
+    text-align: center;
+}
+
+.bottom_bar_element {
+    color : #fff;
+    width: 14%;
+}
+
+.element {
+    width: 62%;
+    height: 100%;
+    padding: 7px;
+    text-align: left;
+    line-height: 22px;
+}
+
+.call_img {
+    background: url('image/call.png') no-repeat;
+    background-size: contain;
+    width: 90px;
+    height: 90px;
+}
+
+.mail_img {
+    background: url('image/mail.png') no-repeat;
+    background-size: contain;
+    width: 90px;
+    height: 90px;
+}
+
+.mail {
+   cursor: pointer;
+}
+
+.plus_img {
+    background: url('image/plus.png') no-repeat;
+    background-size: contain;
+    width: 90px;
+    height: 90px;
+}
+
+.facebook_img {
+    background: url('image/facebook.png') no-repeat;
+    background-size: contain;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.twitter_img {
+    background: url('image/twitter.png') no-repeat;
+    background-size: contain;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.google_img {
+    background: url('image/google.png') no-repeat;
+    background-size: contain;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.copyright_img {
+    background: url('image/copyright.png') no-repeat;
+    background-size: contain;
+    width: 90px;
+    height: 90px;
+}
