@@ -55,11 +55,10 @@
 .btn_text {
     font-size: 35px;
     line-height: 80px;
-    margin: 0;
     font-weight: bold;
 }
 
-.operation_btn {
+.operator_btn {
     background-color: #61d0d4;
 }
 
@@ -68,7 +67,7 @@
     color: white;
 }
 
-#cancle_btn {
+#cancel_btn {
     background-color: #e83556;
     color: white;
 }
